@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "typography.css",
+	"sources": [
+		"../../sass/base/typography.scss"
+	],
+	"sourcesContent": [
+		"// Typography SASS partial\r\n\r\n// variables\r\n\r\n$color-glob: #777;\r\n$color-prim: #58e1c1;\r\n$color-link: #51ddfc;\r\n$sans-serif : 'Lato', sans-serif;\r\n\r\n// maps\r\n\r\n$font-weight: (\r\n    'light': 300,\r\n    'bold': 700,\r\n);\r\n\r\n\r\n// global styles\r\n\r\n* {\r\n    font-family: $sans-serif;\r\n    color: $color-glob;\r\n    box-sizing: border-box;\r\n  }\r\n  \r\n  p {\r\n    line-height: 1.45em;\r\n  }\r\n  \r\n  a {\r\n    text-decoration: none;\r\n  }\r\n\r\n// general styles\r\n\r\n.headline-primary {\r\n    color: $color-prim;\r\n    margin-left: 10px;\r\n  }\r\n  \r\n  .headline-secondary {\r\n    font-weight: map-get($font-weight, 'light');\r\n    color: $color-prim;\r\n  }\r\n  \r\n  .link {\r\n    color: $color-link;\r\n    font-weight: map-get($font-weight, 'bold');\r\n  }\r\n  \r\n  .blockquote {\r\n    font-size: 1.5em;\r\n    font-weight: map-get($font-weight, 'light');\r\n    font-style: italic;\r\n    margin-left: 20px;\r\n    padding-left: 20px;\r\n    border-left: 8px solid #58e1c1;\r\n    border-radius: 5px;\r\n  }"
+	],
+	"names": [],
+	"mappings": ";AAmBA,AAAA,CAAC,CAAC;EACE,WAAW,EAbD,MAAM,EAAE,UAAU;EAc5B,KAAK,EAjBI,IAAI;EAkBb,UAAU,EAAE,UAAU;CACvB;;;AAED,AAAA,CAAC,CAAC;EACA,WAAW,EAAE,MAAM;CACpB;;;AAED,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;CACtB;;;AAIH,AAAA,iBAAiB,CAAC;EACd,KAAK,EA/BI,OAAO;EAgChB,WAAW,EAAE,IAAI;CAClB;;;AAED,AAAA,mBAAmB,CAAC;EAClB,WAAW,EA7BF,GAAG;EA8BZ,KAAK,EArCI,OAAO;CAsCjB;;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAxCI,OAAO;EAyChB,WAAW,EAlCH,GAAG;CAmCZ;;;AAED,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,KAAK;EAChB,WAAW,EAxCF,GAAG;EAyCZ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,iBAAiB;EAC9B,aAAa,EAAE,GAAG;CACnB"
+}
