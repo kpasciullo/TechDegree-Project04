@@ -1,37 +1,21 @@
-// Typography SASS partial
-
-// variables
-
-$color-glob: #777;
-$color-prim: #58e1c1;
-$color-link: #51ddfc;
-$sans-serif : 'Lato', sans-serif;
-
-// maps
-
-$font-weight: (
-    'light': 300,
-    'bold': 700,
-);
-
-
-// global styles
+/* ============================================= */
+/*              Typography styles                      */
+/* ============================================= */
 
 * {
-    font-family: $sans-serif;
-    color: $color-glob;
-    box-sizing: border-box;
-  }
-  
-  p {
-    line-height: 1.45em;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+  font-family: $sans-serif;
+  color: $color-glob;
+  box-sizing: border-box;
+}
 
-// general styles
+p { 
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 .headline-primary {
     color: $color-prim;
@@ -54,6 +38,6 @@ $font-weight: (
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid #58e1c1;
+    border-left: 8px solid $color-prim;
     border-radius: 5px;
   }
