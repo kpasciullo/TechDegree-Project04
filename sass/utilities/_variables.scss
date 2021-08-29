@@ -18,3 +18,9 @@ $font-weight: (
 //breakpoints
 
 $break-xs: 768px;
+
+//buttons
+
+
+$base-default: #51ddfc; 
+$button-default-light: lighten($base-default, 15%);

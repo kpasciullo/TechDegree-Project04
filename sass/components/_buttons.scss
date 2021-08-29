@@ -14,6 +14,9 @@
   
   .default {
     background-color: #51ddfc;
+    &:hover {
+    background-color: $button-default-light;
+    }
   }
   
   .error {
