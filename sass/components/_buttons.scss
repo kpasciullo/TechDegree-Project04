@@ -13,9 +13,10 @@
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $base-default;
     &:hover {
     background-color: $button-default-light;
+    transition: all .5s ease;
     }
   }
   
