@@ -9,30 +9,29 @@
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
-    border-radius: 5px;
+    transition: all .5s ease;
+    &:hover {
+      background-color: $button-light;
   }
+}
   
   .default {
     background-color: $base-default;
-    &:hover {
-    background-color: $button-default-light;
-    transition: all .5s ease;
-    }
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $base-error;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $base-info;
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $base-success;
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $base-warning;
   }
   

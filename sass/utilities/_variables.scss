@@ -23,4 +23,9 @@ $break-xs: 768px;
 
 
 $base-default: #51ddfc; 
-$button-default-light: lighten($base-default, 15%);
+$base-error: #e4757a;
+$base-info: #927bc1;
+$base-success: #63cc82;
+$base-warning: #fd7856;
+
+$button-light: lighten($base, 15%);
