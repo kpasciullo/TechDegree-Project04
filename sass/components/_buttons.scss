@@ -10,28 +10,40 @@
     padding: 10px 0;
     text-transform: uppercase;
     transition: all .5s ease;
-    &:hover {
-      background-color: $button-light;
-  }
 }
   
   .default {
     background-color: $base-default;
+     &:hover {
+     background-color: lighten($base-default, 15%);
+  }
   }
   
   .error {
     background-color: $base-error;
+         &:hover {
+     background-color: lighten($base-error, 15%);
+  }
   }
   
   .info {
     background-color: $base-info;
+    &:hover {
+      background-color: lighten($base-info, 15%);
+   }
   }
   
   .success {
     background-color: $base-success;
+    &:hover {
+      background-color: lighten($base-success, 15%);
+   }
   }
   
   .warning {
     background-color: $base-warning;
+    &:hover {
+      background-color: lighten($base-warning, 15%);
+   }
   }
   
